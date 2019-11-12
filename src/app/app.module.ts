@@ -22,7 +22,7 @@ import * as dropin from 'braintree-web-drop-in';
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    PaymentPage
+    
   ],
   imports: [
     BrowserModule,
@@ -34,7 +34,7 @@ import * as dropin from 'braintree-web-drop-in';
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    PaymentPage
+    
   ],
   providers: [
     StatusBar,
