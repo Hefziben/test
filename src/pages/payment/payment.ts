@@ -40,6 +40,9 @@ constructor(
 	
 	
   navToHomePage(){
+    $('#confirmData').show();
+	  $('#confirmmsg').show();
+	  $('#dropin-container').hide()
     //this.keyboard.close();
 	//if you navigated to this page from other page, u can uncommnet below line
     //this.navCtrl.pop();
@@ -65,11 +68,12 @@ constructor(
 	  console.log("-----paydata()--------call");
 	  $('#confirmData').hide();
 	  $('#confirmmsg').hide();
-	  $('#confirmdonation').show();
+    $('#confirmdonation').show();
+    $('#Authenticating').hide();
 
   
   
-  $("#donate").html("Donate");
+  $("#donate").html("Pay");
   var self = this;
   var form = document.querySelector('#nonce-form');
   var hiddenNonceInput = document.querySelector('#my-nonce-input');
